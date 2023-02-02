@@ -48,6 +48,17 @@ There are 2 types of IP Address:-
 * IPv4 : IPv4 is the fourth version of IP,The IPv4 uses a 32-bit address scheme allowing to store 2^32 addresses.Eg :- 192.149.252.76 
 * IPv6 : IPv6 (Internet Protocol Version 6) , IPv6 is a 128-bit IP address which supports 2^128 Internet addresses in total.The use of IPv6 not only solves the problem of limited network addresses resources but also resolves the barriers for multiple access devices to connect to the Internet. Eg:- 3ffe:1900:fe21:4545:0000:0000:0000:0000
 
+2^7  2^6 2^5 2^4 2^3 2^2 2^1 2^0 
+128  64  32   16   8  4   2   1
+
+![image](https://user-images.githubusercontent.com/96170504/216386673-5d851e51-faf2-40e2-8ce0-7655b3e8b9b6.png)
+
+Class A : 0 to 127  
+Class B : 128 to 191 
+Class C : 192 to 223 
+Class D : 224 to 239
+Class E : 240 to 255
+
 #### what is Network Model ?
 
 There are two type of Network :
