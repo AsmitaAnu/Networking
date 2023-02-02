@@ -55,3 +55,12 @@ There are two type of Network :
 * TCP/IP Network
 
 ![image](https://user-images.githubusercontent.com/96170504/216316561-899f4ab6-2852-4d1f-94ce-c273cf884a10.png)
+
+* Application Layer : Data > The Softwares which interact one huuman to another workes in Application Layer. webbrowser [http, https, SMTP]
+* Presentation Layer : Data > Is the Formate eg : Png, jpeg Audio: Mp3, Video : mp4
+* Session Layer : Data > Create and Maintain the sessions
+* Transport Layer : Segment > End to end delivery of data. Segments will add the Port number 
+* Network Layer : Packets | IP address | ICMP | IPv4 | IPv6 (Routers) . There the packets will add the source IP and destination IP
+* Datalink Layer : Frame| It adds the Source Mac address and destination Mac address.
+* Physical Layer : Bits | cables| connection , In this basically the NIC card will encode and MAC address into 0's and 1's 0011.
+
