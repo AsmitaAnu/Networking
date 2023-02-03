@@ -93,5 +93,17 @@ Class B : 128 to 191
 Class C : 192 to 223 
 Class D : 224 to 239
 Class E : 240 to 255
- Just by checking above class range u can say your IP range
+
+* Just by checking above class range u can say your IP range
 150.1.1.1 : Class B , 200.1.1.1 : Class C, 125.1.1.1 : Class A , 128.1.1.1 : Class B, 194.1.1.1 : Class C.
+
+#### How to find the Network and Host in IP ?
+
+Class A : N H H H , Class B : N N H H, Class C : N N N H
+Example:-  177.100.18.4   
+ As 177 comes under Class B so, there will be two N and two H.
+ * 199.8.45.0 : As 199 comes under Class c so, there will be three N and one H.
+ * 119.8.35.9 : As 199 comes uner class A so, there will be one N and three H.
+ * 192.53.87.9 : As 192 comes under class C so, there will be three N and one H.
+ * 95.96.76.2: As 95 comes uner class A so, there will be one N and three H.
+
