@@ -75,3 +75,23 @@ There are two type of Network :
 * Datalink Layer : Frame| It adds the Source Mac address and destination Mac address.
 * Physical Layer : Bits | cables| connection , In this basically the NIC card will encode and MAC address into 0's and 1's 0011.
 
+#### Subnet Mask
+
+A subnet mask is a 32-bit number created by setting host bits to all 0s and setting network bits to all 1s. In this way, the subnet mask separates the IP address into the network and host addresses.
+
+Note: 1 - 128 , 2 - 192, 3 - 224, 4 - 240, 5 - 248, 6 - 252, 7 - 254
+Eg to find subnet
+10.0.1.1/24 :- 24= (8+8+8) "8bit = 225"
+225.225.225.0 Subnet
+216.202.192.66/22 :- (8+8+6)
+Subnet 225.225.252.0
+
+#### By seeling IP how can u say which class does it belong.
+
+Class A : 0 to 127  
+Class B : 128 to 191 
+Class C : 192 to 223 
+Class D : 224 to 239
+Class E : 240 to 255
+ Just by checking above class range u can say your IP range
+150.1.1.1 : Class B , 200.1.1.1 : Class C, 125.1.1.1 : Class A , 128.1.1.1 : Class B, 194.1.1.1 : Class C.
