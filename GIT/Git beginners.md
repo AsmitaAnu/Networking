@@ -20,3 +20,10 @@ Git is the tool which track all the changes in your code overtime and Github is 
 * push:- Upload git commit to a remote repo, like github. 
 * pull:- Download changes from remote repo to the loacl machine. 
 
+#### Commands to commit the code
+  
+* git status
+* git add <filename>
+* git commit -m "<context>"
+* git push origin main
+  
