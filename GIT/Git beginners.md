@@ -35,7 +35,10 @@ Git is the tool which track all the changes in your code overtime and Github is 
   *checkout is used to switch the branch and to create new branch need to use -b.
   
 #### git diff : This command is used to show the me all the lines that have been changed .
-#### git merge : This command is used to merge to different branch
+#### git merge : This command is used to merge to different branch.
+#### git log : This command is used to show the commit msg which we had done while commiting the code.
+#### git reset : This command is used to change back the commit you have done early .
+#### git reset HEAD~1 : This command is used to get 
 #### How to delete a branch ?
  git branch -d branchname
   
