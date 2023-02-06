@@ -31,7 +31,17 @@ Git is the tool which track all the changes in your code overtime and Github is 
   git branch
 #### How to change the branch in github ?
   git checkout -b feature
-  *checkout is used to switch the branch and to create new branch need to use -b
+  
+  *checkout is used to switch the branch and to create new branch need to use -b.
+  
+#### git diff : This command is used to show the me all the lines that have been changed .
+#### git merge : This command is used to merge to different branch
+#### How to delete a branch ?
+ git branch -d branchname
+  
+  
+  
+  
   
   
   
