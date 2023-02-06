@@ -15,7 +15,7 @@ Git is the tool which track all the changes in your code overtime and Github is 
 ## GIT Commands
 
 * clone:- Bring a repository that is hosted somewhere like Github into a folder on your local machine. 
-* add:- Track your files and changes in git. 
+* add:- Track your files and changes in git.  Eg:- git add <file>
 * commit:- Save ypur file in Git. 
 * push:- Upload git commit to a remote repo, like github. 
 * pull:- Download changes from remote repo to the loacl machine. 
