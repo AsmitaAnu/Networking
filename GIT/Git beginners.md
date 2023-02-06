@@ -39,6 +39,11 @@ Git is the tool which track all the changes in your code overtime and Github is 
 #### How to delete a branch ?
  git branch -d branchname
   
+git commit -am context :- This command is basically used to add and commit both to a modifed file, which means the file should be already present and commited before.
+  
+#### what is PR ?
+It is basically a request to have your code pulled into another branch . In the example we're using feature branch , and we want to have ouur code pulled into the master branch . so, we make a PR from the feature branch to the master branch. 
+  
   
   
   
