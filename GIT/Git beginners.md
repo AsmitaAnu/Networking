@@ -27,3 +27,11 @@ Git is the tool which track all the changes in your code overtime and Github is 
 * git commit -m "<context>"
 * git push origin main
   
+#### How to check the branch of the git ?
+  git branch
+#### How to change the branch in github ?
+  git checkout -b feature
+  *checkout is used to switch the branch and to create new branch need to use -b
+  
+  
+  
