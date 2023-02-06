@@ -14,9 +14,9 @@ Git is the tool which track all the changes in your code overtime and Github is 
 
 ## GIT Commands
 
-clone:- Bring a repository that is hosted somewhere like Github into a folder on your local machine.
-add:- Track your files and changes in git.
-commit:- Save ypur file in Git.
-push:- Upload git commit to a remote repo, like github.
-pull:- Download changes from remote repo to the loacl machine.
+clone:- Bring a repository that is hosted somewhere like Github into a folder on your local machine. \br
+add:- Track your files and changes in git. \br
+commit:- Save ypur file in Git. \br
+push:- Upload git commit to a remote repo, like github. \br
+pull:- Download changes from remote repo to the loacl machine. \br
 
