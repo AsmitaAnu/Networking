@@ -31,18 +31,22 @@ Git is the tool which track all the changes in your code overtime and Github is 
   git branch
 #### How to change the branch in github ?
   git checkout -b feature
+#### How to delete a branch ?
+ git branch -d branchname  
   
-  *checkout is used to switch the branch and to create new branch need to use -b.
+ ## Git Command
   
 #### git diff : This command is used to show the me all the lines that have been changed .
 #### git merge : This command is used to merge to different branch.
 #### git log : This command is used to show the commit msg which we had done while commiting the code.
 #### git reset : This command is used to change back the commit you have done early .
 #### git reset HEAD~1 : This command is used to get 
-#### How to delete a branch ?
- git branch -d branchname
-  
-git commit -am context :- This command is basically used to add and commit both to a modifed file, which means the file should be already present and commited before.
+#### git restore --stage : This command is used to unstage or even discard uncommitted local changes.
+#### git branch : This command is used to check the number of branch .
+#### git checkout : This command is used to switch the branch and to create new branch need to use -b.
+#### git commit -am context :- This command is basically used to add and commit both to a modifed file, which means the file should be already present and commited before.
+#### git stash : This command is used when u are unable to pull your previous code and even can't discard your code So, to hold the recent changes made in the file can help used to store in stash file.
+
   
 #### what is PR ?
 It is basically a request to have your code pulled into another branch . In the example we're using feature branch , and we want to have ouur code pulled into the master branch . so, we make a PR from the feature branch to the master branch. 
