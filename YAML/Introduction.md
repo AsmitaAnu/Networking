@@ -50,23 +50,7 @@ name: Asmita Bisoi
 role: {age: 24, job: software, home: odisha}
 
 **Anchors : It basically replace the global words with all other place where u will call.
-likings: &likes
- fav fruit: mango
- dislike: orange
- 
-person1:
- name: priyanka
- <<: *likes
- 
-person2:
- name: amit
- fav fruit: mango
- dislike: orange
- 
-person3:
- name: rahul
- fav fruit: mango
- dislike: orange
+
 
 
 
