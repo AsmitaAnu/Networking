@@ -29,7 +29,7 @@ A container can also be considered as a cohesive software unit that packages up 
 3. Docker image templates can exist in isolation but containers can't exist without images.  
 4. So docker image is an integral part of containers that differs only because of their objectives which we have already covered.  
 5. Docker images can’t be paused or started but a Docker container is a run time instance that can be started or paused. 
-Command to check the **process id** :- **ps -ef**
+#### Command to check the **process id** :- **ps -ef**
 #### How to push ur image in the repository?
 1. docker login [provide ur username and password of github].
 2. docker tag imageid repositoryname:v1
