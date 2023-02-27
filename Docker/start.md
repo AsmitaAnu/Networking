@@ -47,5 +47,22 @@ Bind mounts have limited functionality compared to volumes. When you use a bind 
 Stored only in a host's memory in linux.
 #### what is the difference between volume and mount ?
 Bind mounts have limited functionality compared to volumes. When you use a bind mount, a file or directory on the host machine is mounted into a container. By contrast , Volume will create the new directory within the Docker’s storage directory on the host machine, and Docker manages that directory’s contents.
-
+Type of Network
+1. Bridge : It is the default network drive. If we don't specify network then Bridge is the default network in the container.
+2. overlay : Overlay networks connect multiple Docker daemons together and enable swarm services to communicate with each other. You can also use overlay networks to facilitate communication between a swarm service and a standalone container, or between two standalone containers on different Docker daemons.
+3. None : For this container, disable all networking.
+4. Host : For standalone containers, remove network isolation between the container and the Docker host, and use the host’s networking directly.
+5. macvlan : Macvlan networks allow you to assign a MAC address to a container, making it appear as a physical device on your network. The Docker daemon routes traffic to containers by their MAC addresses. Using the macvlan driver is sometimes the best choice when dealing with legacy applications that expect to be directly connected to the physical network, rather than routed through the Docker host’s network stack.
+** Docker Network command
+![image](https://user-images.githubusercontent.com/96170504/221581985-da35af34-dc5c-4798-840b-12a3755fff9b.png)
+** Command to create network
+docker network create --driver bridge mynet
+Endpoints: It basicaaly connect your container with network
+Puublished Port
+1.Container are by default connected to bridge network.
+2. Container have outbound network access but no inbound network access.
+3. ports must be published to allow inbound network access.
+DNS
+Load Balancing
+Logging
 
