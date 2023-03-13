@@ -4,4 +4,6 @@
 2. Architecture consulting : Now, there main concern is prototyping and rendering AWS take care of both the use it let you have automated and speed up rendering as far as prototype is concerned so, that is why architectural businees benefit it alot.
 3. Media Company : As far as medial company goes the main function is to generate content and the place to dump it , where AWS will come into the role . It will handel both the situuation.
 4. Large Enterprises: They reach is worldwide so they have to reach there customer and enterprises globally or across different places so, AWS give you that potion beacuse it has a global architecture and your reach can be very wide as far as these point are concern .
-
+**AWS Domains**
+1. Migration
+2. 
